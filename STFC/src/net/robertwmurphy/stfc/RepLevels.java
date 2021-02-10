@@ -8,8 +8,13 @@ public class RepLevels {
 	private String repLevel;
 	private String faction;
 	
-	RepLevels() {
-		
+	//Constructor
+	RepLevels(int ID, int minPts, int maxPts, String repLVL, String faction) {
+		setID(ID);
+		setMinimumPoints(minPts);
+		setMaximumPoints(maxPts);
+		setRepLevel(repLVL);
+		setFaction(faction);
 	}
 	
 	//Getters
