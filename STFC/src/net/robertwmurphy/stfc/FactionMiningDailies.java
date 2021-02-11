@@ -11,7 +11,10 @@ public class FactionMiningDailies {
 	//Constructor
 	FactionMiningDailies(int ID, String repLVL, String rssGrd, String rssLVLOne, String rssLVLTwo) {
 		setID(ID);
-		setrepLVL(repLVL);
+		setReputationLevel(repLVL);
+		setRSSGrade(rssGrd);
+		setRSSLevelOne(rssLevelOne);
+		setRSSLevelTwo(rssLevelTwo);
 	}
 	
 	//Getters
